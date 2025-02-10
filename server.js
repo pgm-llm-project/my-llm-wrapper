@@ -11,7 +11,7 @@ app.use(express.json());
 //app.use(cors());
 app.use(
   cors({
-    origin: "https://pgm-llm-project.github.io/",
+    origin: "https://pgm-llm-project.github.io",
     methods: ["POST"],
     allowedHeaders: ["Content-Type"],
   })
